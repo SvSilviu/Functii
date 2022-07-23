@@ -153,44 +153,46 @@ public class Functii {
         }
     }
 
-    public static int sumaCifre(int numar){
-        return sumaCifreImpare(numar)+sumaCifrePare(numar);
+    public static int sumaCifre(int numar) {
+        return sumaCifreImpare(numar) + sumaCifrePare(numar);
     }
-    public static int produsCifre(int numar){
-        return sumaCifrePare(numar)*sumaCifreImpare(numar);
+
+    public static int produsCifre(int numar) {
+        return sumaCifrePare(numar) * sumaCifreImpare(numar);
     }
-    public static int scadereCifre(int numar){
-        return sumaCifrePare(numar)-sumaCifreImpare(numar);
+
+    public static int scadereCifre(int numar) {
+        return sumaCifrePare(numar) - sumaCifreImpare(numar);
     }
-    public static int impartireCifre(int numar){
-        return sumaCifreImpare(numar)/sumaCifrePare(numar);
+
+    public static int impartireCifre(int numar) {
+        return sumaCifreImpare(numar) / sumaCifrePare(numar);
     }
-    public static void Solutie(int numar){
-        String mesaj = "Numarul este : "+numar + "\n";
-        mesaj+="Inversarea numarului este : " + algoritmInversare(numar) + "\n";
-        mesaj+="Cifra maxima a numarului este : " +cifraMax(numar)+ "\n";
-        mesaj+="Cifra minima a numarului este : " +cifraMin(numar)+ "\n";
-        mesaj +="Cifra para maxima a numarului este : " +cifraParaMax(numar)+ "\n";
-        mesaj+="Cifra para minima a numarului este : " +cifraParaMin(numar)+ "\n";
-        mesaj+="Cifra impara maxima a numarului este : "+cifraImparaMax(numar)+"\n";
-        mesaj+="Cifra impara minica a numarului este : "+cifraImparaMin(numar)+"\n";
-        mesaj+="Numarul total de cifre ale numarului este : "+contorCifre(numar)+"\n";
-        mesaj+="Numarul total de cifre pare ale numarului este : "+contorCifrePare(numar)+"\n";
-        mesaj+="Numarul total de cifre impare ale numarului este : "+contorCifreImpare(numar)+"\n";
-        mesaj+="Suma cifrelor pare din numar este : "+sumaCifrePare(numar)+"\n";
-        mesaj+="Suma cifrelor impare din numar este : "+sumaCifreImpare(numar)+"\n";
-        mesaj+="Suma cifrelor numarului este : "+sumaCifre(numar)+"\n";
-        mesaj+="Produsul cifrelor numarului este : "+produsCifre(numar)+"\n";
-        mesaj+="Scaderea cifrelor numarului este : "+scadereCifre(numar)+"\n";
-        mesaj+="Impartirea cifrelor numarului este : "+impartireCifre(numar)+"\n";
-        mesaj+="Numere intregi si operator : " +numereIntregiSiOperator(5,3,'a')+"\n";
+
+    public static void Solutie(int numar) {
+        String mesaj = "Numarul este : " + numar + "\n";
+        mesaj += "Inversarea numarului este : " + algoritmInversare(numar) + "\n";
+        mesaj += "Cifra maxima a numarului este : " + cifraMax(numar) + "\n";
+        mesaj += "Cifra minima a numarului este : " + cifraMin(numar) + "\n";
+        mesaj += "Cifra para maxima a numarului este : " + cifraParaMax(numar) + "\n";
+        mesaj += "Cifra para minima a numarului este : " + cifraParaMin(numar) + "\n";
+        mesaj += "Cifra impara maxima a numarului este : " + cifraImparaMax(numar) + "\n";
+        mesaj += "Cifra impara minica a numarului este : " + cifraImparaMin(numar) + "\n";
+        mesaj += "Numarul total de cifre ale numarului este : " + contorCifre(numar) + "\n";
+        mesaj += "Numarul total de cifre pare ale numarului este : " + contorCifrePare(numar) + "\n";
+        mesaj += "Numarul total de cifre impare ale numarului este : " + contorCifreImpare(numar) + "\n";
+        mesaj += "Suma cifrelor pare din numar este : " + sumaCifrePare(numar) + "\n";
+        mesaj += "Suma cifrelor impare din numar este : " + sumaCifreImpare(numar) + "\n";
+        mesaj += "Suma cifrelor numarului este : " + sumaCifre(numar) + "\n";
+        mesaj += "Produsul cifrelor numarului este : " + produsCifre(numar) + "\n";
+        mesaj += "Scaderea cifrelor numarului este : " + scadereCifre(numar) + "\n";
+        mesaj += "Impartirea cifrelor numarului este : " + impartireCifre(numar) + "\n";
+        mesaj += "Numere intregi si operator : " + numereIntregiSiOperator(5, 3, 'a') + "\n";
         System.out.println(mesaj);
 
 
     }
 }
-
-
 
 //
 //
@@ -243,7 +245,7 @@ public class Functii {
 //        }
 //        return contor;
 //    }
-//
+////
 //
 //    public static void solutie3(int numar) {
 //
@@ -256,9 +258,9 @@ public class Functii {
 //        }
 //        System.out.println(text);
 //    }
-
-
-
+//
+//}
+//
 
 
 

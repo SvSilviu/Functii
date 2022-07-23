@@ -1,28 +1,10 @@
 package Functii;
 
-import static Functii.Functii.*;
+import static Functii.Functii.Solutie;
 
 public class Main {
     public static void main(String[] args) {
-////
-/////*
-////         int t=maxim(35,67);
-////        System.out.println(t);
-////        System.out.println(maxim(12,32));
-////        System.out.println(maxim(345,6));*/
-////        System.out.println(numereIntregi(32,45,'+'));
-////        System.out.println(numereIntregi(44,2,'-'));
-////
-//       // System.out.println(numarPar(567698));
-//
-//     //   solutie(123456);
-//
-////        System.out.println(cifraMax(635));
-////        System.out.println(cifraMin(9852));
-//
-//     //   System.out.println(frecventa(12223,1));
-//
-//        solutie3(345555779);
+
 
 //        System.out.println(algoritmInversare(12345));
 //        System.out.println(cifraMax(258));
@@ -37,11 +19,10 @@ public class Main {
 //        System.out.println(cifraImparaMin(39));
 //        System.out.println(sumaCifrePare(4568));
 //        System.out.println(sumaCifreImpare(3689));
-//       System.out.println(sumaCifreImpare(1325));
-//       System.out.println(numereIntregiSiOperator(236,51,'s'));
+//        System.out.println(sumaCifreImpare(1325));
+//        System.out.println(numereIntregiSiOperator(236,51,'s'));
 //        System.out.println(sumaCifre(32));
 //        System.out.println(produsCifre(38));
         Solutie(1452);
-        
     }
 }
